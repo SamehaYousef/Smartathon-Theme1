@@ -1,4 +1,4 @@
-,imagePath,xmin,ymin,xmax,ymax,class
+index,imagePath,xmin,ymin,xmax,ymax,class
 0,dataset/images/953ab1447c46ecfef67ab14629cd70c7.jpg,332,210,307,206,GARBAGE
 1,dataset/images/e4ddbaa7970fca225a51288ce5f7d3f9.jpg,345,222,306,210,POTHOLES
 2,dataset/images/5b8120d69607a077b7583334be3ba18b.jpg,347,222,331,222,POTHOLES
