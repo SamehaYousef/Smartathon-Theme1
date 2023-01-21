@@ -1,7 +1,6 @@
 from smart import config
-from smart.io import HDF5DatasetWriter
+import tensorflow as tf
 from smart import TrainingMonitor
-
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.applications import VGG16
 from tensorflow.keras.layers import Flatten
@@ -147,7 +146,7 @@ flatten = Flatten()(flatten)
 # bounding box coordinates
 #This branch is a simple fully-connected subnetwork, 
 #consisting of 128, 64, 32, and 4 nodes, respectively.
-import tensorflow as tf
+
 
 bboxHead = Dense(128, activation="relu", #kernel_regularizer=tf.keras.regularizers.L1L2(l1=0.01, l2=0.01)
 )(flatten)
